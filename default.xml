@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
   <remote fetch="https://github.com/yaap" name="yaap" revision="kplatform"/>
   <remote fetch="https://github.com/RealJohnGalt" name="personal" revision="kplatform"/>
-  <project remote="personal" name="kernel_common_oneplus_sm8650" path="kernel_platform/common">
+  <project remote="personal" name="kernel_common_oneplus_sm8650" path="kernel_platform/common" revision="kplatform-staging">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
   <project remote="personal" name="kernel_oneplus_sm8650" path="kernel_platform/msm-kernel">
